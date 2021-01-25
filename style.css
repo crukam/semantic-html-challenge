@@ -1,5 +1,15 @@
 /* CSS files add styling rules to your content */
 
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
 table{
   width:100%;
   background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?v=1527763317245),
@@ -8,25 +18,23 @@ table{
   border-collapse:collapse;
 }
 
-thead, tfoot{
+thead, tfoot {
   color:white;
    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
   font-family:Rock Salt;
 }
-tbody{
+
+tbody {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
   font-style: normal;
   text-align: center;
   border:2px solid #800080;
-  
 }
-
 
 tbody> tr:nth-child(even){
   background-color: #e495e4;
-  
 }
+
 tbody> tr:nth-child(odd){
   background-color:#ff33cc;
-  
 }
