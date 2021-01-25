@@ -1,16 +1,21 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+
+  margin: 4px;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: 'Rock Salt', cursive;
+  size: 2rem;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
 }
 
 table{
+  table-layout: fixed;
   width:100%;
   background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?v=1527763317245),
     url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png?v=1527763328062);
@@ -23,12 +28,20 @@ thead, tfoot {
    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
   font-family:Rock Salt;
 }
+.col {
+  font-family: 'Lato', sans-serif;
+}
 
 tbody {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  font-family: 'Lato', sans-serif; 
   font-style: normal;
   text-align: center;
   border:2px solid #800080;
+}
+
+tbody tr {
+  height: 50px;
+  border: 1px solid #800080;
 }
 
 tbody> tr:nth-child(even){
@@ -37,4 +50,9 @@ tbody> tr:nth-child(even){
 
 tbody> tr:nth-child(odd){
   background-color:#ff33cc;
+}
+
+.table-descriptor {
+  text-align: right;
+  font-family: 'Rock Salt', cursive;
 }
